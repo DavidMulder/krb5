@@ -6,7 +6,7 @@ mydir=.
 #	plugins/locate/python
 #	plugins/preauth/wpse
 #	plugins/preauth/cksum_body
-SUBDIRS=plugins/kdb/db2 util include lib kadmin/ktutil clients
+SUBDIRS=util include lib plugins/kdb/db2 kadmin/ktutil clients
 WINSUBDIRS=include util lib ccapi windows clients appl
 BUILDTOP=$(REL).
 
